@@ -17,107 +17,86 @@
 </head>
 
 <body>
-  <!-- Contact section -->
+
   <section id="contact" class="py-5 bg-warning">
     <div class="container">
-      <!-- Title -->
+
       <div class="row">
         <div class="col text-center">
           <h1 class="display-4 text-dark mb-0">
             <strong>Manage your account</strong>
           </h1>
           <div class="text-underline bg-danger text-center mb-3"></div>
-          <h1>Net Income:</h1>
+          <h3>Net Income:</h3>
+
         </div>
       </div>
-      <!-- End of title -->
-      <!-- Contact form -->
+
       <div class="row">
         <div class="col-md-6 my-3">
           <div class="card card-body bg-secondary">
-            <!-- Contact form title -->
+
             <div class="card-title text-center text-white">
-              <h2 class="text-capitalize">Expenses Tracker</h2>
-              <h2>Total Expenses:</h2>
+              <h5 class="text-capitalize">Expenses Tracker</h5>
+              <h5>Total Expenses:<div id="totalExpenses"></div>
+              </h5>
             </div>
-            <!--End of Contact form title -->
+
+
             <form>
 
-
-
-
-
-
-              <!-- Input group form for first name -->
               <div class="input-group my-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text">Expenses Amount </span>
                 </div>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" id="expenses-amount">
               </div>
-              <!--End of Input group form for first name -->
 
-
-              <!-- email field -->
               <div class="form-group mt-3">
-                <input type="email" class="form-control" id="email" placeholder="Description">
+                <input type="text" class="form-control" id="expenses-description" placeholder="Description">
               </div>
-
-              <!--End of email field -->
-
-              <!-- BTN Login button -->
               <div class="text-center">
-                <button class="btn btn-danger btn-block text-white">Add Expenses</button>
+                <button class="btn btn-danger btn-block text-white" id="addExpenses">Add Expenses</button>
               </div>
-              <!-- End of BTN Login button -->
+
             </form>
-            <!-- End of Contact form -->
+
 
           </div>
-
         </div>
-        <!-- Google map -->
+
         <div class="col-md-6 my-3">
           <div class="card card-body bg-secondary">
             <!-- Contact form title -->
             <div class="card-title text-center text-white">
-              <h2 class="text-capitalize">Income Tracker</h2>
-              <h2>Total Income: </h2>
+              <h5 class="text-capitalize">Income Tracker</h5>
+              <h5>Total Income:<div id="totalIncome"></div>
+              </h5>
+
             </div>
-            <!--End of Contact form title -->
+
             <form>
-              <!-- Input group form for first name -->
               <div class="input-group my-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text">Income Amount </span>
                 </div>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" id="income-amount">
               </div>
-              <!--End of Input group form for first name -->
 
-
-              <!-- email field -->
               <div class="form-group mt-3">
-                <input type="email" class="form-control" id="email" placeholder="Description">
+                <input type="email" class="form-control" id="income-description" placeholder="Description">
               </div>
-
-              <!--End of email field -->
-
-              <!-- BTN Login button -->
               <div class="text-center">
-                <button class="btn btn-danger btn-block text-white">Add Income</button>
+                <button class="btn btn-danger btn-block text-white" id="addIncome-btn">Add Income</button>
               </div>
-              <!-- End of BTN Login button -->
             </form>
-            <!-- End of Contact form -->
-
           </div>
 
         </div>
       </div>
     </div>
   </section>
-  <!-- Contact section -->
+  <!-- /Main Section -->
 
 
 
